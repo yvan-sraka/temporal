@@ -2,9 +2,6 @@
 
 Source code release of the anti-aliasing solution used in Playdead's *INSIDE*.
 
-#### LICENSE
-MIT (see [License.txt](License.txt))
-
 #### REQUIRES
 Unity 5.0+
 
@@ -18,6 +15,9 @@ Unity 5.0+
 
 #### AUTHOR
 Lasse Jon Fuglsang Pedersen <<lasse@playdead.com>>
+
+#### LICENSE
+MIT (see [License.txt](License.txt))
 
 #### THANKS TO
 * Mikkel Gjøl (suggestions and feedback, noise distributions, motion blur tweaks)
