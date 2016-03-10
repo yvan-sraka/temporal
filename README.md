@@ -3,7 +3,7 @@
 Source code release of the anti-aliasing solution used in Playdead's *INSIDE*.
 
 #### LICENSE
-MIT (see [License.txt](License.txt))
+MIT (see [LICENSE.txt](LICENSE.txt))
 
 #### REQUIRES
 Unity 5.0+
