@@ -201,7 +201,7 @@ Shader "Playdead/Post/VelocityBuffer"
 
 			#pragma vertex blit_vert
 			#pragma fragment blit_frag_prepass
-			#pragma only_renderers ps4 xboxone d3d11 d3d9 xbox360 opengl
+			#pragma only_renderers ps4 xboxone d3d11 d3d9 xbox360 opengl glcore
 			#pragma target 3.0
 			#pragma glsl
 
@@ -218,7 +218,7 @@ Shader "Playdead/Post/VelocityBuffer"
 
 			#pragma vertex vert
 			#pragma fragment frag
-			#pragma only_renderers ps4 xboxone d3d11 d3d9 xbox360 opengl
+			#pragma only_renderers ps4 xboxone d3d11 d3d9 xbox360 opengl glcore
 			#pragma target 3.0
 			#pragma glsl
 
@@ -235,7 +235,7 @@ Shader "Playdead/Post/VelocityBuffer"
 
 			#pragma vertex vert_skinned
 			#pragma fragment frag
-			#pragma only_renderers ps4 xboxone d3d11 d3d9 xbox360 opengl
+			#pragma only_renderers ps4 xboxone d3d11 d3d9 xbox360 opengl glcore
 			#pragma target 3.0
 			#pragma glsl
 
@@ -252,7 +252,7 @@ Shader "Playdead/Post/VelocityBuffer"
 
 			#pragma vertex blit_vert
 			#pragma fragment blit_frag_tilemax
-			#pragma only_renderers ps4 xboxone d3d11 d3d9 xbox360 opengl
+			#pragma only_renderers ps4 xboxone d3d11 d3d9 xbox360 opengl glcore
 			#pragma target 3.0
 			#pragma glsl
 
@@ -269,7 +269,7 @@ Shader "Playdead/Post/VelocityBuffer"
 
 			#pragma vertex blit_vert
 			#pragma fragment blit_frag_neighbormax
-			#pragma only_renderers ps4 xboxone d3d11 d3d9 xbox360 opengl
+			#pragma only_renderers ps4 xboxone d3d11 d3d9 xbox360 opengl glcore
 			#pragma target 3.0
 			#pragma glsl
 
