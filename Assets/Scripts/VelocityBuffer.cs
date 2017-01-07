@@ -59,7 +59,7 @@ public class VelocityBuffer : EffectBase
     {
         EnsureMaterial(ref velocityMaterial, velocityShader);
 
-        if (_camera.orthographic || _camera.depthTextureMode == DepthTextureMode.None || velocityMaterial == null)
+        if (_camera.depthTextureMode == DepthTextureMode.None || velocityMaterial == null)
         {
             if (_camera.depthTextureMode == DepthTextureMode.None)
                 _camera.depthTextureMode = DepthTextureMode.Depth;

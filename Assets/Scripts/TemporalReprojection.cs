@@ -57,7 +57,7 @@ public class TemporalReprojection : EffectBase
     {
         EnsureMaterial(ref reprojectionMaterial, reprojectionShader);
 
-        if (_camera.orthographic || _camera.depthTextureMode == DepthTextureMode.None || reprojectionMaterial == null)
+        if (_camera.depthTextureMode == DepthTextureMode.None || reprojectionMaterial == null)
         {
             Graphics.Blit(source, destination);
             if (_camera.depthTextureMode == DepthTextureMode.None)

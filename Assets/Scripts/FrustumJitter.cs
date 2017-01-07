@@ -246,7 +246,7 @@ public class FrustumJitter : MonoBehaviour
     void OnPreCull()
     {
         var camera = GetComponent<Camera>();
-        if (camera != null && camera.orthographic == false)
+        if (camera != null)
         {
             // update motion dir
             {
@@ -280,8 +280,15 @@ public class FrustumJitter : MonoBehaviour
                 activeSample.w = activeSample.y;
                 activeSample.x = sample.x;
                 activeSample.y = sample.y;
-
-                camera.projectionMatrix = camera.GetPerspectiveProjection(sample.x, sample.y);
+                
+                if (camera.orthographic == false)
+                {
+                    camera.projectionMatrix = camera.GetPerspectiveProjection(sample.x, sample.y);
+                }
+                else
+                {
+                    camera.projectionMatrix = camera.GetOrthographicProjection(sample.x, sample.y);
+                }
             }
         }
         else
